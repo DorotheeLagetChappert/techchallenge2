@@ -1,0 +1,28 @@
+.navbar {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 2em;
+}
+
+.navbar-h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.navbar-picture {
+  max-width: 96px;
+  margin-right: 6px;
+}
+@media screen and (max-width: 640px) {
+  .navbar {
+    padding: 2em 0;
+  }
+  .navbar-h1 {
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .navbar-picture {
+    max-width: 75px;
+    margin-right: 8px;
+  }
+}
